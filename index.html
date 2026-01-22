@@ -13,13 +13,17 @@
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     </head>
     <body>
+        <!-- header -->
         <header class="d-flex justify-content-between">
+            <!-- navbar -->
             <nav class="navbar navbar-expand-lg flex-grow-1 bg-body-tertiary "
                 data-bs-theme="dark">
                 <div class="container-fluid">
+                    <!-- logo img -->
                     <a class="nav-link active" aria-current="page"
                         href="#"><img style="height: 5rem;"
                             src="./img/duck.png" alt="#"></a>
+                            <!-- navbar rules -->
                     <button class="navbar-toggler" type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent"
@@ -29,6 +33,7 @@
                     </button>
                     <div class="collapse navbar-collapse"
                         id="navbarSupportedContent ">
+                        <!-- navbar items -->
                         <ul
                             class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
@@ -58,16 +63,23 @@
                 </div>
             </nav>
         </header>
+        <!-- container for body -->
         <div class="container">
+            <!-- row -->
             <div class="row">
+                <!-- fisrt col with catalogue -->
                 <div class="col-sm-12 col-md-12 col-lg-9">
+                    <!-- col main card with catalogue -->
                     <div class="card border-0">
+                        <!-- main card title and button-->
                         <div class="card-body d-flex justify-content-between">
                             <h2 class="card-title">Catalogo Libri</h2>
                             <a href="#" class="btn btn-primary">Aggiungi
                                 Libro</a>
                         </div>
+                        <!-- main card with table, and Data Prestito hidden on mobile devices -->
                         <table class="table table-striped">
+                            <!-- table header -->
                             <thead>
                                 <tr>
                                     <th class="col-6" scope="col">Titolo</th>
@@ -78,6 +90,7 @@
                                         scope="col">Azioni</th>
                                 </tr>
                             </thead>
+                            <!-- table body -->
                             <tbody>
                                 <tr>
                                     <td>I pilastri della terra</td>
@@ -285,11 +298,15 @@
                         </table>
                     </div>
                 </div>
+                <!-- second col with 2 side cards -->
                 <div class="col-sm-12 col-md-12 col-lg-3">
+                    <!-- side card todo list with checklist -->
                     <div class="card my-3">
+                        <!-- side card to dolist title -->
                         <div class="card-header">
                             <h3>Todo</h3>
                         </div>
+                        <!-- todo checklist -->
                         <div class="card m-3">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
@@ -328,10 +345,13 @@
                             </ul>
                         </div>
                     </div>
+                    <!-- side card FAQ with collapsed content -->
                     <div class="card my-3">
+                        <!-- side card title -->
                         <div class="card-header">
                             <h3>F.A.Q.</h3>
                         </div>
+                        <!-- FAQ collapsed content -->
                         <div class="accordion accordion-flush"
                             id="accordionFlushExample">
                             <div class="accordion-item">
