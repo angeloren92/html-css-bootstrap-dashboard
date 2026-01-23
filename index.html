@@ -16,15 +16,15 @@
         <!-- header -->
         <header class="d-flex justify-content-between">
             <!-- navbar -->
-            <nav class="navbar navbar-expand-lg flex-grow-1 bg-body-tertiary"
-                data-bs-theme="dark">
-                <div class="container-fluid">
-                    <!-- logo img -->
-                    <a class="nav-link active" aria-current="page"
-                        href="#"><img style="height: 5rem;"
-                            src="./img/duck.png" alt="#"></a>
-                            <!-- navbar rules -->
-                    <button class="navbar-toggler" type="button"
+            <nav class="navbar navbar-expand-lg flex-grow-1 navbar-dark bg-dark"
+            data-bs-theme="light">
+            <div class="container-fluid">
+                <!-- logo img -->
+                <a class="nav-link active" aria-current="page"
+                    href="#"><img style="height: 5rem;"
+                        src="./img/duck.png" alt="#"></a>
+                <!-- navbar rules -->
+                <button class="navbar-toggler" type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent"
@@ -75,7 +75,7 @@
                         <!-- main card title and button-->
                         <div class="card-body d-flex justify-content-between">
                             <h2 class="card-title">Catalogo Libri</h2>
-                            <a href="#" class="btn btn-primary">Aggiungi
+                            <a href="./aggiungi-libro.html" class="btn btn-primary">Aggiungi
                                 Libro</a>
                         </div>
                         <!-- main card with table, and Data Prestito hidden on mobile devices -->
@@ -83,12 +83,11 @@
                             <!-- table header -->
                             <thead>
                                 <tr>
-                                    <th class="col-6" scope="col">Titolo</th>
+                                    <th class="w-50" scope="col">Titolo</th>
                                     <th class="d-none d-md-table-cell"
                                         scope="col">Data Prestito</th>
-                                    <th class="col-2" scope="col">Stato</th>
-                                    <th style="min-width: 110px;" class="col-2"
-                                        scope="col">Azioni</th>
+                                    <th scope="col">Stato</th>
+                                    <th scope="col">Azioni</th>
                                 </tr>
                             </thead>
                             <!-- table body -->
