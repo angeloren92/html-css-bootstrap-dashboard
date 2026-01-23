@@ -71,25 +71,25 @@
             <form class="row g-3">
                 <h1 class="h3">Nuovo Libro</h1>
                 <div class="col-6">
-                    <label for class="form-label">Nome Autore</label>
-                    <input type="text" class="form-control"
+                    <label for="input_nome-autore" class="form-label">Nome Autore</label>
+                    <input type="text" placeholder="Inserisci il nome dell'autore" class="form-control" name="input_nome-autore"
                         id="input_nome-autore">
                 </div>
                 <div class="col-6">
-                    <label for
+                    <label for="input_cognome-autore"
                         class="form-label">Cognome Autore</label>
-                    <input type="text" class="form-control"
+                    <input type="text" placeholder="Inserisci il cognome dell'autore" class="form-control" name="input_cognome-autore"
                         id="input_cognome-autore">
                 </div>
                 <div class="col-12">
-                    <label for class="form-label">Titolo</label>
-                    <input type="text" class="form-control"
+                    <label for="input_libro-titolo" class="form-label">Titolo</label>
+                    <input type="text" class="form-control" name="input_libro-titolo"
                         id="input_libro-titolo"
                         placeholder="Inserisci il titolo del libro">
-                    <span class="form-text" id>Titolo versione italiana</span>
+                    <small class="form-text" id>Titolo versione italiana</small>
                 </div>
                 <div class="col-md-4">
-                    <label for class="form-label">Genere</label>
+                    <label for="input_genere" class="form-label">Genere</label>
                     <select id="input_genere" class="form-select">
                         <option selected disabled>Scegli il genere</option>
                         <option>Bambini</option>
@@ -100,22 +100,22 @@
                     </select>
                 </div>
                 <div class="col-md-4">
-                    <label for class="form-label">Anno di Pubblicazione</label>
+                    <label for="input_date" class="form-label">Anno di Pubblicazione</label>
                     <input type="number" min="1900" max="2099"
-                        class="form-control" placeholder="Inserisci l'anno"
+                        class="form-control" placeholder="Inserisci l'anno" name="input_date"
                         id="input_date">
                 </div>
                 <div class="col-md-4">
-                    <label for="" class="form-label">ISBN#</label>
+                    <label for="input_isbn" class="form-label">ISBN#</label>
                     <input type="text" class="form-control"
                         pattern="[0-9]{3}-?[0-9]{1,5}-?[0-9]{1,7}-?[0-9]{1,7}-?[0-9X]{1}"
-                        placeholder="Inserisci il codice ISBN#" id="input_isbn">
+                        placeholder="Inserisci il codice ISBN#" name="input_isbn" id="input_isbn">
                 </div>
                 <hr>
                 <div class="col-12">
-                    <label for="" class="form-label">Note</label>
-                    <input type="text" class="form-control" 
-                        placeholder="Inserisci eventuali note sul libro" id="input_note">
+                    <label for="input_note" class="form-label">Note</label>
+                    <textarea class="form-control" rows="3"
+                        placeholder="Inserisci eventuali note sul libro" name="input_note" id="input_note"></textarea>
                 </div>
                 <div class="col-12">
                     <div class="form-check">
